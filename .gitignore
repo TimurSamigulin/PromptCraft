@@ -5,6 +5,7 @@
 
 # dev files
 prompts/
+prompt_storage/
 test.py 
 
 ### Python ###

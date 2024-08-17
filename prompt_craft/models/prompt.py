@@ -14,7 +14,7 @@ class Prompt(BaseModel):
 
     class Config:
         # Автоматическое приведение значений типов
-        orm_mode = True
+        from_attributes = True
 
     @field_validator('name')
     def validate_name(cls, v):
